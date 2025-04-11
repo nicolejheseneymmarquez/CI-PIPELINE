@@ -1,6 +1,7 @@
 import unittest
 from item_manager import ItemManager
 
+
 class TestItemManager(unittest.TestCase):
     def setUp(self):
         self.manager = ItemManager()
@@ -35,6 +36,8 @@ class TestItemManager(unittest.TestCase):
         self.assertEqual(len(items), 2)
         self.assertIn(1, items)
         self.assertIn(2, items)
+
+
 
 if __name__ == "__main__":
     unittest.main()
