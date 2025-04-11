@@ -38,6 +38,5 @@ class TestItemManager(unittest.TestCase):
         self.assertIn(2, items)
 
 
-
 if __name__ == "__main__":
     unittest.main()
